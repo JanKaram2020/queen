@@ -26,9 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     audio.play();
     if (triple[0] === "1" && triple[1] === "2" && triple[2] === "3") {
       document.getElementById("final").play();
-    } else {
-      console.log("tis ");
-    }
+    } 
   }
   const keys = Array.from(document.querySelectorAll(".key"));
   keys.map((key) => key.addEventListener("transitionend", removeTransition));
